@@ -1,6 +1,7 @@
 FROM debian:buster
 
 EXPOSE 5900 
+EXPOSE 22
 
 ENV HOME /root
 ENV TZ Etc/UTC
